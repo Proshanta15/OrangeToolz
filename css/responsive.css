@@ -1,0 +1,195 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1200px){
+    body{
+        width: 1100px;
+    }
+    .body .button-part .same {
+        min-width: 173px;
+    }
+    .body .scroll-part .scroll-top .all-item .item {
+        min-width: 262px;
+    }
+    .body .scroll-body .scroll-item {
+        min-width: 300px;
+       
+    }
+    .body .scroll-body .normal-item {
+        min-width: 255px;
+    } 
+}
+@media screen and (max-width: 1100px){
+    body{
+        width: 1023px;
+    }
+    .body .select-part .left ul li:nth-child(1) select {
+        width: 215px;
+    }
+}
+@media screen and (max-width: 991px){
+    body{
+        width: 755px;
+    }
+    .body .button-part .same {
+        min-width: 110px;
+        padding: 4px 0px;
+    }
+    .body .select-part .left ul li select option{
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+    .body .select-part .left ul li:nth-child(1) select {
+        width: 130px;
+    }
+    .body .select-part .left ul li:nth-child(2) select {
+        width: 120px;
+    }
+    .body .select-part .left ul li:nth-child(3) select {
+        width: 60px;
+    }
+    .body .select-part .right .boxcontainer { 
+        width: 170px;
+        height: 40px;   
+    }
+    .header-top .search-part .boxcontainer {
+        width: 175px;  
+    }
+    .header-top .search-part {
+        margin-right: 0px;
+    }
+    .header-top .icon {
+        margin-right: 0px;
+    }
+    .sidebar.active {
+        width: 190px;
+    }
+    .sidebar.active ~ .home_content {
+        width: calc(100% - 185px);
+        left: 190px;
+    }
+}
+@media screen and (max-width: 767px){
+    body{
+        width: 570px;
+    }
+    .body .button-part .same {
+        min-width: 120px;
+        padding: 4px 0px;
+    }
+    .body .button-part .same {
+        min-width: 90px;
+        padding: 4px 0px;
+    }
+    .header-top {
+        background: #133159;
+        height: 179px;
+        width: 100%;
+        display: block;
+        width: 100%;
+        padding-top: 15px;
+    }
+    
+    .header-top .profile ul{
+        margin-left: 125px;
+        margin-top: 10px;
+    }
+    .body .select-part {
+        display: block;
+    }
+    .body .select-part .right .boxcontainer {
+        width: 255px;
+        margin-top: 10px;
+    }
+    .body .button-part {
+        display: block; 
+        margin-top: 10px;
+    }
+    .body .scroll-part .scroll-top .all-item .item {
+        min-width: 315px;
+    }
+    .body .deal-part {
+        display: block; 
+    }
+    .header-top .search-part .boxcontainer {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    body{
+        width: 360px;
+    }
+    .sidebar.active {
+        width: 145px;
+    }
+    .sidebar .links_name {
+        font-size: 10px;
+    }
+    .sidebar ul li {
+        height: 30px;
+        width: 80%;
+       
+}
+.sidebar {
+   width: 60px;
+    padding: 6px 5px;
+    padding-bottom: 100px;
+}
+.home_content {
+    width: calc(100% - 62px);
+    left: 60px;
+}
+.sidebar.active ~ .home_content {
+    left: 145px;
+}
+.header-top .search-part .boxcontainer {
+    width: 170px;
+    height: 35px;
+}
+.body .select-part .right .boxcontainer {
+    width: 150px;
+}
+.sidebar #btn {
+    font-size: 25px;
+}
+.body .select-part .left ul li select {
+    height: 30px;
+    font-size: 15px;
+}
+.sidebar ul li img {
+    width: 30px;
+}
+.body .select-part .left ul li {
+    display: inline-block;
+    margin-top: 5px;
+}
+.body .scroll-part .scroll-top .all-item .item {
+    min-width: 245px;
+}
+.body .scroll-body .scroll-item {
+    min-width: 245px;
+}
+body .scroll-body .scroll-item ul li .single-item {
+    
+    height: 185px;
+}
+.body .scroll-body .normal-item {
+    min-width: 245px;
+}
+.header-top {
+    height: 175px;
+}
+.header-top .profile ul {
+    margin-left: 25px;
+   
+}
+.body {
+    margin: 9px;
+    padding: 5px 5px 10px 5px;
+}
+}
